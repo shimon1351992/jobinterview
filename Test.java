@@ -13,7 +13,7 @@ public class Test {
         Socket s = ss.accept();
         DataInputStream dis = new DataInputStream(s.getInputStream());
         String str = (String) dis.readUTF();
-
+           System.out.println("inter folder");
         File folder = new File(str);
         File[] listOfFiles = folder.listFiles();
 
