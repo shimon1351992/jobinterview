@@ -24,7 +24,7 @@ public class Test {
 //                 System.out.println("Directory " + listOfFiles[i].getName());
 //             }
 //         }
-        System.out.print("Client Says");
+        System.out.println("Client Says");
 //         ss.close();
         }
 
