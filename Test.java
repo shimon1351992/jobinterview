@@ -9,8 +9,6 @@ public class Test {
 
 
     public static void main(String args[]) throws IOException {
-
-
         ServerSocket ss = new ServerSocket(6666);
         Socket s = ss.accept();
         DataInputStream dis = new DataInputStream(s.getInputStream());
