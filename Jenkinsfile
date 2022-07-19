@@ -12,7 +12,6 @@ pipeline {
             steps {
                bat 'javac test.java
                bat 'javac client.java'
-              
             }
         }
     }
