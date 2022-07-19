@@ -11,8 +11,8 @@ pipeline {
         }
         stage('Run') {
             steps {
-               bat 'javac client.java'
-               bat 'javac test.java'
+               bat 'java client'
+               bat 'java test'
                echo 'Building2..'
             }
         }
