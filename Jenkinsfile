@@ -10,8 +10,8 @@ pipeline {
         }
         stage('Run') {
             steps {
-               bat 'javac client.java'
-               bat 'javac test.java'
+               bat 'javac client'
+               bat 'javac test'
             }
         }
     }
