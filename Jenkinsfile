@@ -13,6 +13,7 @@ pipeline {
             steps {
                bat 'javac client.java'
                bat 'javac test.java'
+               echo 'Building2..'
             }
         }
     }
